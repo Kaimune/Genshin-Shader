@@ -90,7 +90,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthDistance: 0.34
+    - _DepthDistance: 0.7
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -99,6 +99,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _HorizonDistance: 0.99
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -116,7 +117,10 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Deep: {r: 0.96855336, g: 0.5634665, b: 0.5634665, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Horizon: {r: 0.0613845, g: 0.8238993, b: 0, a: 0}
+    - _Shallow: {r: 0.27080017, g: 0.044381097, b: 0.8301887, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7056774654348882619
