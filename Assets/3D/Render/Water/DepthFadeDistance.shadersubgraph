@@ -5,6 +5,9 @@
     "m_Properties": [
         {
             "m_Id": "a1cd7842a656406ba3f6d73aeccfa50f"
+        },
+        {
+            "m_Id": "641b6466162d4f4a95d671e11676c96c"
         }
     ],
     "m_Keywords": [],
@@ -68,6 +71,9 @@
         },
         {
             "m_Id": "723016a6b9b04073a55449a9e5b7bdef"
+        },
+        {
+            "m_Id": "9b88f1e34ccf479faaf1138dfc2c63d8"
         }
     ],
     "m_GroupDatas": [
@@ -221,6 +227,20 @@
                     "m_Id": "f8c9af0e459541dfb4bdea36ef6b2b23"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9b88f1e34ccf479faaf1138dfc2c63d8"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "ca02e9248a1049b3b303130d70b983fc"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -669,16 +689,16 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "22cdd3f770a94439bdbe8b4f7a99678c",
-    "m_Title": "New Note",
-    "m_Content": "Write something here",
+    "m_Title": "Subtract world pos",
+    "m_Content": "camera\r\n  |\r\n  |----- (distance A) -----|  water surface\r\n  |\r\n  |----- (distance B) ------------------|  object behind\r\n\r\nSubtraction →        |------------|   (water depth)",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": 376.6666564941406,
-        "y": -514.0,
-        "width": 200.00003051757813,
-        "height": 160.0
+        "x": 167.3333282470703,
+        "y": -478.0,
+        "width": 417.3333435058594,
+        "height": 179.33334350585938
     },
     "m_Group": {
         "m_Id": "b059bdc8bbbe4ad19130d8716fbeb785"
@@ -1010,6 +1030,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "5bcf344464f84af0b2b96b03ab68e59f",
+    "m_Id": 0,
+    "m_DisplayName": "UV",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "6038a2c6506c4873a52196c2d7f15a48",
     "m_Id": 3,
@@ -1021,6 +1062,34 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
+    "m_ObjectId": "641b6466162d4f4a95d671e11676c96c",
+    "m_Guid": {
+        "m_GuidSerialized": "6071ed2a-871b-47dd-8b01-d9d42eeef29c"
+    },
+    "m_Name": "UV",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "UV",
+    "m_DefaultReferenceName": "_UV",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
 }
 
 {
@@ -1695,8 +1764,47 @@
     "m_ChildObjectList": [
         {
             "m_Id": "a1cd7842a656406ba3f6d73aeccfa50f"
+        },
+        {
+            "m_Id": "641b6466162d4f4a95d671e11676c96c"
         }
     ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "9b88f1e34ccf479faaf1138dfc2c63d8",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1253.72998046875,
+            "y": 317.4000549316406,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "5bcf344464f84af0b2b96b03ab68e59f"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "641b6466162d4f4a95d671e11676c96c"
+    }
 }
 
 {
@@ -1841,8 +1949,8 @@
     "m_ObjectId": "b059bdc8bbbe4ad19130d8716fbeb785",
     "m_Title": "",
     "m_Position": {
-        "x": 108.66667938232422,
-        "y": -404.6665954589844
+        "x": 132.31893920898438,
+        "y": -516.9855346679688
     }
 }
 
@@ -2056,9 +2164,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 134.0,
-            "y": -345.9999694824219,
-            "width": 207.3333740234375,
+            "x": 157.33331298828126,
+            "y": -256.6666564941406,
+            "width": 207.33334350585938,
             "height": 134.66665649414063
         }
     },
@@ -2132,10 +2240,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 394.666748046875,
-            "y": -305.3332824707031,
-            "width": 209.333251953125,
-            "height": 304.0
+            "x": 418.0000305175781,
+            "y": -216.0000457763672,
+            "width": 209.33328247070313,
+            "height": 304.00006103515627
         }
     },
     "m_Slots": [
@@ -2261,16 +2369,16 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "f610c45737d54ee0b418d1f13232049b",
-    "m_Title": "New Note",
-    "m_Content": "Write something here",
+    "m_Title": "Camera Position",
+    "m_Content": "Adding camera position indicates where the player is facing. Without adding cam, would equate to looking through the water from the water plane itself \n\n\n\n        👤  ← player (head = camera)\r\n        /|\\\r\n         |\r\n         |   ← view vector (camera ray)\r\n         |       (points where player looks)\r\n         v\r\n~~~~~~~~~~~~~~~~~~~~~~~   ← water surface (plane)\r\n         |\r\n         |   ← scene depth continues\r\n         |\r\n        ███  ← object below water\r\n",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -236.0,
-        "y": -302.0,
-        "width": 200.0,
-        "height": 160.0
+        "x": -325.3333435058594,
+        "y": -517.3333129882813,
+        "width": 356.66668701171877,
+        "height": 308.6666564941406
     },
     "m_Group": {
         "m_Id": "4ff51ab12a33428ca9636a875afd0a10"
