@@ -499,7 +499,7 @@ Transform:
   m_GameObject: {fileID: 123885817}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.21000004, z: 0}
   m_LocalScale: {x: 1.9740068, y: 1.9740068, z: 1.9740068}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1112,13 +1112,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.93291926, y: -0.06708071, z: 0.2499749, w: 0.2503486}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 149.957, y: -30, z: 0}
 --- !u!114 &705507996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,7 +1276,7 @@ Transform:
   m_GameObject: {fileID: 735534408}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.83, y: 0, z: 1.37}
+  m_LocalPosition: {x: -1.83, y: 0.81, z: 1.37}
   m_LocalScale: {x: 2.9563, y: 2.9563, z: 2.9563}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1715,13 +1715,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16939874, y: -0.2871906, z: 0.09226112, w: 0.93825024}
+  m_LocalRotation: {x: 0.35953298, y: -0.26194254, z: 0.1495883, w: 0.883032}
   m_LocalPosition: {x: 2.92, y: 2.18, z: -3.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 21.769, y: -33.137, z: 4.684}
+  m_LocalEulerAnglesHint: {x: 45.506, y: -30.438, z: 6.211}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,8 +1735,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
+  m_RequiresDepthTextureOption: 1
+  m_RequiresOpaqueTextureOption: 1
   m_CameraType: 0
   m_Cameras: []
   m_RendererIndex: -1
@@ -1745,7 +1745,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1861,7 +1861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47d7658581aac438735760258ed423, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.93
+      value: -3.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47d7658581aac438735760258ed423, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2524,7 +2524,7 @@ Transform:
   m_GameObject: {fileID: 1683139782}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.96, z: 0}
+  m_LocalPosition: {x: 0, y: 1.36, z: 0}
   m_LocalScale: {x: 0.8543416, y: 0.8543416, z: 0.8543416}
   m_ConstrainProportionsScale: 0
   m_Children: []

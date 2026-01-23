@@ -56,7 +56,7 @@ Material:
     - _Intersection_Foam_Blend: 0
     - _Intersection_Foam_Color_Blend: 1
     - _Intersection_Foam_Cutoff: 0.875
-    - _Intersection_Foam_Depth: 0.75
+    - _Intersection_Foam_Depth: 0.31
     - _Intersection_Foam_Direction: 0.154
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
@@ -77,7 +77,7 @@ Material:
     - _Surface_Foam_Color_Blend: 1
     - _Surface_Foam_Cutoff: 0.131
     - _Surface_Foam_Direction: 0.413
-    - _Surface_Foam_Distortion: 0.94
+    - _Surface_Foam_Distortion: 0
     - _Surface_Foam_Speed: 0
     - _Surface_Foam_Tiling: 84.8
     - _Wave_Length: 2.8
@@ -92,8 +92,8 @@ Material:
     - _Refraction_Movement: {r: 0, g: 0, b: 0, a: 0}
     - _Shallow_Color: {r: 0.45768058, g: 0.8018868, b: 0.7984465, a: 0.43137255}
     - _Shore_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
-    - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0.09019608}
+    - _Surface_Foam_Color: {r: 1, g: 1, b: 1, a: 0.011764706}
     - _Wave_Directions: {r: 0, g: 0.5, b: 1, a: 0.2}
   m_BuildTextureStacks: []
 --- !u!114 &6558234974639672788
