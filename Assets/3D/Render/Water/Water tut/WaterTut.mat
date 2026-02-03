@@ -137,12 +137,13 @@ Material:
     - _Int_Foam_Tiling: 11.7
     - _Int_Foamdepth: 0.77
     - _Intersection_Foam_Fade: 1
-    - _Lighting_Hardness: 0
-    - _Lighting_Smoothness: 1
+    - _Lighting_Hardness: 0.208
+    - _Lighting_Smoothness: 0.117
+    - _Lighting_Step: 0.33
     - _Metallic: 0
-    - _Normals_Scale: 0.4
-    - _Normals_Speed: 0.4
-    - _Normals_Strength: 1
+    - _Normals_Scale: 0.19
+    - _Normals_Speed: 0.218
+    - _Normals_Strength: 0.41
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 1
@@ -173,12 +174,12 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.23137255}
     - _FoamOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _Horizon: {r: 1, g: 0.47058827, b: 0, a: 1}
+    - _Horizon: {r: 0, g: 1, b: 0.39227796, a: 1}
     - _Int_Foam_Color: {r: 1, g: 1, b: 1, a: 0.1254902}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Shallow: {r: 0.4576804, g: 0.8018868, b: 0.7984465, a: 0.64705884}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Specular_Color: {r: 1, g: 0.7179129, b: 0.08627448, a: 0.5411765}
     - _Wave_Directions: {r: 0, g: 0.5, b: 1, a: 0.2}
   m_BuildTextureStacks: []
 --- !u!114 &7056774654348882619
